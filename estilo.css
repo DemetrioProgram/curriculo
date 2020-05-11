@@ -1,0 +1,226 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+h2,h1,hr {
+    text-align: center;
+}
+
+hr {
+    width: 70%;
+}
+
+#linguagens {
+    left: 30%;
+}
+
+#indioma {
+    left: 30%;
+}
+
+.img {
+    padding:8px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+
+.img IMG {
+    border: 1px solid #000000;
+}
+
+#demetrio {
+    margin: 0 auto;
+    width: 50%;
+    height: 450px;
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    position: relative;
+    left: 20%;
+}
+
+ul {
+    padding: 0px!important;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: darkgray;
+    height: 60px;
+}
+
+main {
+    margin: 0 auto;
+    width: 70%;
+    position: relative;
+}
+
+.div-logo {
+    padding: 3px;
+    float: left;
+    width: 70%;
+}
+
+#nome {
+    width: 50%;
+    font-family: serif;
+}
+
+.redes-sociais {
+    height: 60px;
+    width: 26%;
+    float: right;
+}
+
+.redes-sociais ul li {
+    margin-left: 15px;
+    display: inline-block;
+    list-style: none;
+    float: left;
+}
+
+.header-2 {
+    padding: 10px;
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.menu-urls {
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 15px;
+    color: #8b8b8b;
+    height: 50px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #8b8b8b;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.col-50 {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.col-51 {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.footer {
+    background-color: darkgray;
+    height: 200px;
+}
+
+.content p {
+    margin-left: 15%;
+    width: 500px;
+}
+
+.content-1 p {
+    text-align: center;
+    left: 0%;
+}
+
+.col-100 img {
+    width: 80px;
+    height: 400px;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 64px;
+    height: 64px;
+    background-color: transparent;
+    background-image: url(../previos.png);
+    position: absolute;
+    z-index: 9;
+    top: 40%;
+    left: 14%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 64px;
+    height: 64px;
+    background-color: transparent;
+    background-image: url(../next.png);
+    position: absolute;
+    z-index: 9;
+    top: 40%;
+    right: 14%;
+}
+
+.slick-dots li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid darkgrey;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+li.slick-active button {
+    background: #00bac6;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 47%;
+    top: 90%;
+}
+
+.slick-list {
+    width: 100%!important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
